@@ -1,0 +1,92 @@
+html{
+  font-size: 10px;
+}
+#NavList {
+  display:flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items:center;
+  border: 2px solid;
+  padding: 1%;
+  margin-top: .5%
+}
+.NavListItem > a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px
+}
+#DarkMode {
+  text-align:right;
+}
+#WelcomeLine{
+  padding: 1%;
+  border: 1px dashed;
+}
+h1{
+  padding: 1%
+}
+//{
+  display:flex;
+  flex-direction: column;
+}
+body{
+  background: #dbf0f9;
+  background-image: linear-gradient(to left, #ccccff, #dbf0f9);
+  text-align: justify;
+  color: #4a4443;
+  font-family: "Syne Mono", Lucida, serif;
+  border:2px solid;
+  padding: 1%;
+}
+h1{
+  text-align: center;
+  font-family: "Lucida Calligraphy", Lucida, serif;
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 1.05rem;
+  margin-bottom: 0;
+}
+h2{
+  text-align:center;
+  margin-top: 1%;
+}
+h3{
+  text-decoration-line: underline;
+  font-size:2rem;
+}
+blockquote{
+  text-align:center;
+  font-style: italic;
+}
+a{
+  color:orange;
+}
+p{
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+img.center{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px; border-style:solid;
+}
+#TheBean{
+  width:15%;
+  height:15%;
+}
+#MrKrabs{
+  width:5%;
+  height:5%;
+}
+.thirty{
+  text-align: center;
+  border: 20px;
+}
+#ProgressTitle{
+  font-size: 1.25rem;
+}
+ol{
+  list-style-position: inside;
+  line-height: 1.5;
+}
