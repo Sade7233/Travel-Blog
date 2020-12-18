@@ -1,5 +1,13 @@
 html{
-  font-size: 10px;
+  font-size: 14px;
+}
+button{
+  border: 2px solid purple;
+  padding: 10px 12px;
+}
+button:hover {
+  background-color: purple;
+  color: white;
 }
 #NavList {
   display:flex;
@@ -16,11 +24,22 @@ html{
   font-size: 18px
 }
 #DarkMode {
-  text-align:right;
+  margin-left: 90%;
 }
 #WelcomeLine{
   padding: 1%;
   border: 1px dashed;
+}
+#PageTopics{
+  display:flex;
+  flex-direction: column;
+}
+.PageSection {
+  border: 2px solid;
+  margin: 10px;
+  width: 50%;
+  padding: 2%;
+  background-color:
 }
 h1{
   padding: 1%
@@ -51,8 +70,9 @@ h2{
   margin-top: 1%;
 }
 h3{
-  text-decoration-line: underline;
+  /*text-decoration-line: underline;*/
   font-size:2rem;
+  margin-top: 0;
 }
 blockquote{
   text-align:center;
@@ -71,13 +91,44 @@ img.center{
   margin-right: auto;
   border: 5px; border-style:solid;
 }
+#Why{
+  margin-left: 255px;
+}
 #TheBean{
-  width:15%;
-  height:15%;
+  width:40%;
+  height:40%;
+  border: 2px solid black;
+  margin-left: 210px;
 }
 #MrKrabs{
-  width:5%;
-  height:5%;
+  width:30%;
+  height:30%;
+  border: 2px solid black;
+  margin-left: 250px;
+}
+#Great{
+  margin-left: 100px;
+}
+#Timeline{
+  margin-left: 500px
+}
+#SoloDolo{
+  margin-left: 100px;
+}
+#Ready{
+  margin-left: 500px;
+}
+#InTheWorks{
+  margin-left:100px;
+}
+}
+.InTheWorksPic{
+  width: 120px;
+  height: 120px;
+  margin: 3px;
+}
+#ThirtyProjectBox{
+  margin-left: 255px;
 }
 .thirty{
   text-align: center;
@@ -86,7 +137,32 @@ img.center{
 #ProgressTitle{
   font-size: 1.25rem;
 }
+progress::-webkit-progress-bar{
+  background-color: "lightgray";
+  border-radius: 2px;
+}
+progress::-webkit-progress-value{
+  background-color: purple;
+}
 ol{
   list-style-position: inside;
   line-height: 1.5;
+}
+#EndQuote{
+  padding: 1.5%;
+}
+#Shia{
+  margin-left: 40%;
+  margin-bottom: 2%
+}
+#ShiaGif{
+  visibility: hidden;
+}
+footer{
+  text-align: center;
+  font-size: 1.25rem;
+}
+.Social{
+  height:30px;
+  width: 30px;
 }
