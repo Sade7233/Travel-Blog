@@ -29,6 +29,9 @@ button:hover {
 #WelcomeLine{
   padding: 1%;
   border: 1px dashed;
+  line-height: 15px;
+  margin-top:50px;
+  margin-bottom:50px;
 }
 #PageTopics{
   display:flex;
@@ -121,7 +124,6 @@ img.center{
 #InTheWorks{
   margin-left:100px;
 }
-}
 .InTheWorksPic{
   width: 120px;
   height: 120px;
@@ -148,6 +150,9 @@ ol{
   list-style-position: inside;
   line-height: 1.5;
 }
+.ThirtyParagraph{
+  text-align: center;
+}
 #EndQuote{
   padding: 1.5%;
 }
@@ -157,10 +162,12 @@ ol{
 }
 #ShiaGif{
   visibility: hidden;
+  margin-bottom: 2%;
 }
 footer{
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 1.05rem;
+  margin: 1%;
 }
 .Social{
   height:30px;

@@ -41,3 +41,32 @@ function Motivation () {
 }
 
 motivationButton.addEventListener("click", Motivation);
+
+/*//Goal: create slideshow timeline of places I've visited
+var i = 0;
+var images = [];
+var time = F8oAAx8waO63s53trWoLu032tODE7dp5eolfpWvgHD00
+
+//Image List
+images[0] = ""; //NOLA
+images[1] = ""; //Colorado
+images[2] = ""; //NYC
+images[3] = ""; //Disney
+images[4] = ""; //DR
+images[5] = ""; //Philly
+images[6] = ""; //Chicago
+images[7] = ""; //Jamaica
+images[8] = ""; //Vegas
+images[9] = ""; //Cabin trip
+
+//Change image
+function changeImage() {
+  document.slide.src = images[i];
+
+  if(i < images.length - 1) {
+    i++;
+  } else {
+    1 = 0;
+}
+
+setTimeout("changeImg()", time);*/
