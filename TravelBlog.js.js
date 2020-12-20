@@ -4,6 +4,7 @@ var darkModeButton = document.getElementById('DarkMode');
 var body = document.getElementsByTagName("body")[0];
 var krabs = document.getElementById('MrKrabs');
 var bean = document.getElementById('TheBean')
+var slideshow = document.getElementsByClassName('TimelineShow')
 console.log("darkModeButton");
 
 var darkModeEnabled = false;
@@ -16,6 +17,7 @@ function enableDarkMode () {
     body.style.color = "white";
     krabs.style.border = "white";
     bean.style.border = "white";
+    slideshow.style.border = "white";
     darkModeButton.innerHTML="Prefer Light Mode?";
     darkModeEnabled = true;
   }  else { //if darkModeEnabled is false
@@ -25,6 +27,7 @@ function enableDarkMode () {
       body.style.border = "black";
       krabs.style.border = "black";
       bean.style.border = "black";
+      slideshow.style.border = "black";
       darkModeButton.innerHTML="Prefer Dark Mode?";
       darkModeEnabled = false;
 

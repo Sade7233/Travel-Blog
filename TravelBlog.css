@@ -95,7 +95,7 @@ img.center{
   border: 5px; border-style:solid;
 }
 #Why{
-  margin-left: 255px;
+  margin-left: 350px;
 }
 #TheBean{
   width:40%;
@@ -113,13 +113,22 @@ img.center{
   margin-left: 100px;
 }
 #Timeline{
-  margin-left: 500px
+  margin-left: 500px;
+  max-width: 500px;
 }
 
 * {box-sizing: border-box}
 /*body {font-family: Verdana, sans-serif; margin:0}*/
 .mySlides {display: none}
-.TimelineShow {vertical-align: middle;}
+.TimelineShow {
+  vertical-align: middle;
+  display: block;
+  max-width:420.94px;
+  max-height:400px;
+  width: auto;
+  height: auto;
+  border: 2px solid black;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -157,8 +166,8 @@ img.center{
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
+  color: white;
+  font-size: 20px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -224,12 +233,12 @@ img.center{
   margin-left:100px;
 }
 .InTheWorksPic{
-  width: 120px;
-  height: 120px;
-  margin: 3px;
+  width: 110px;
+  height: 110px;
+  margin: 1px;
 }
 #ThirtyProjectBox{
-  margin-left: 255px;
+  margin-left: 350px;
 }
 .thirty{
   text-align: center;
